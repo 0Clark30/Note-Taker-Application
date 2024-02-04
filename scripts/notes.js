@@ -1,0 +1,1 @@
+const noteTitle = document.getElementById

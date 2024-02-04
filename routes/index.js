@@ -1,16 +1,13 @@
-const {
-  readFromFile,
-  readAndAppend,
-  writeToFile,
-} = require("./helpers/fsUtils");
+const path = require('path');
 
 const router = require("express").Router();
 
-router.get("/notes", async (req, res) => {
-  try {
-    const data = await readFromFile('../db/db.json');
-    res.status(200).json({ notes: data });
-  } catch (err) {
-    res.status(500).json((err));
-  }
+router.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'))
 });
+
+
+
+
+
+module.exports = router;
