@@ -26,7 +26,8 @@ The installation requires a manual deployment process.
 
 ![alt text](/images/note-taker-gif.gif)
 
-[Link to Deployed App](https://git.heroku.com/note-taker-refactor-0clark30.git)
+[Link to Deployed App](https://note-taker-refactor-0clark30-56082f045eb5.herokuapp.com/) 
+.
 
 [Link to GitHub Repository](https://github.com/0Clark30/Note-Taker-Application)
 
